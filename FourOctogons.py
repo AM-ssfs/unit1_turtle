@@ -3,7 +3,7 @@ Import turtle
 x = 0
 y = 0
 
-While(x<4):     #makes 4 of the shapes
+While(x<4):     #makes 4 of the octogons bellow
 
   While(y<8):   #makes an octogon
 
