@@ -1,19 +1,21 @@
-Import turtle
+import turtle
 
 x = 0
 y = 0
 
-While(x<4):     #makes 4 of the octogons bellow
+while(x<4):#makes 4 of the octogons bellow
 
-  While(y<8):   #makes an octogon
+  while(y<8):#makes an octogon
 
-    turtle.foward(25)     #side length 25 units
-    turtle.right(22.5)    #rotates 180/8 deg
+    turtle.forward(25)     #side length 25 units
+    turtle.right(45)    #rotates 180/8 deg
     y = y + 1             #when this happens 8 times the loop will break
 
   turtle.right(90)	  #rotates turtle so ready for next shape
-  turtle.foward(80)	  #turtle moves so octagons not overlap
+  turtle.penup()
+  turtle.forward(80)	  #turtle moves so octagons not overlap
+  turtle.pendown()
   y = 0        #makes the octogon loop run again
   x = x + 1    #when this happens 4 times the loop will break
   
-turtle.ExitOnClick()  #so it doesn't automaticaly close when it runs
+turtle.exitonclick()  #so it doesn't automaticaly close when it runs
