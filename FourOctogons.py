@@ -5,7 +5,7 @@ y = 0
 
 While(x<4):	#makes 4 of the shapes
 
-  While(y<8):	#makes 8 sided shape
+  While(y<8):	#makes a 8 sided shape
 
     turtle.foward(25)
     turtle.right(22.5)
