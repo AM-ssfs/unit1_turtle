@@ -3,9 +3,9 @@ Import turtle
 x = 0
 y = 0
 
-While(x<4): 	 #makes 4 of the shapes
+While(x<4):     #makes 4 of the shapes
 
-  While(y<8): 	#makes an octogon
+  While(y<8):   #makes an octogon
 
     turtle.foward(25)     #side length 25 units
     turtle.right(22.5)    #rotates 180/8 deg
