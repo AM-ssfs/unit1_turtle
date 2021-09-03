@@ -16,4 +16,4 @@ While(x<4):     #makes 4 of the octogons bellow
   y = 0        #makes the octogon loop run again
   x = x + 1    #when this happens 4 times the loop will break
   
-turtle.ExitOnClick()
+turtle.ExitOnClick()  #so it doesn't automaticaly close when it runs
