@@ -15,4 +15,5 @@ While(x<4):	#makes 4 of the shapes
   turtle.foward(80)	#turtle moves so octagons not overlap
   y = 0
   x = x + 1
+  
 turtle.ExitOnClick()
