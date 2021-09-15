@@ -22,7 +22,7 @@ for x in range(1, 5):
 
     octagon(colors[x])
     turtle.penup()
-    turtle.goto(0+x*50, (0+x*50))
+    turtle.goto(x*50, (x*50))
     turtle.pendown()
 
 turtle.exitonclick()
