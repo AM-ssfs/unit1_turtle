@@ -1,4 +1,4 @@
-import turtle  #turtle was imported correctly
+import turtle  #turtle was imported and used correctly
 
 
 colors = ["red", "orange", "yellow", "green", "blue", "purple"]
@@ -18,10 +18,10 @@ def octagon(color):  #functions are deffined correctly with appropriate parramet
     turtle.end_fill()
 
 
-def goto(x):
+def goto(x):        #functions are deffined correctly with appropriate parrameters
 
     turtle.penup()
-    turtle.goto(x*50, (x*50))
+    turtle.goto(x*50, x*50)
     turtle.pendown()
 
 
